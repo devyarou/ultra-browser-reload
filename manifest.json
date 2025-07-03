@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Reload Tab",
+  "version": "1.0",
+  "description": "一定間隔で現在のタブを自動リロードします。",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Auto Reload Tab",
+    "default_popup": "popup.html"
+  }
+} 
